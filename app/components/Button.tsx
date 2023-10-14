@@ -1,3 +1,4 @@
+'use client';
 import React from "react";
 
 interface Props {
@@ -8,7 +9,7 @@ interface Props {
 
 const Button = ({ children, buttonType, onClick }: Props) => {
   return (
-    <button className={"btn btn-" + buttonType} onClick={onClick}>
+    <button className={buttonType} onClick={onClick}>
       {children}
     </button>
   );

@@ -1,5 +1,15 @@
-import Login from "../components/Login";
+import Login from "./components/Login";
+import './globals.css';
+import Link from 'next/link';
 
-export default function Home() {
-  return <Login />;
-}
+const Page = () => {
+  return (
+    <main className="container mt-5">
+      <h1>Booking System</h1>
+      <Link href="/api/auth/login">Get Started</Link>
+    </main>
+  );
+};
+
+export default Page;
+
