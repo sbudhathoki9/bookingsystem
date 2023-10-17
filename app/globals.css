@@ -25,11 +25,11 @@ html, body {
 }
 
 .nav-link:hover {
-  color: #3498db; /* This color is approximately equal to bg-blue-500 in TailwindCSS */
+  color: #0d3149; /* This color is approximately equal to bg-blue-500 in TailwindCSS */
 }
 
 .nav-button:hover {
-  background-color: #3498db; /* This color is approximately equal to bg-blue-500 in TailwindCSS */
+  background-color: #01090e; /* This color is approximately equal to bg-blue-500 in TailwindCSS */
 }
 
 .content-card {
