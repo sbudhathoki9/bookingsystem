@@ -24,6 +24,10 @@ html, body {
   min-height: 100vh;
 }
 
+h1 {
+  color: white;
+}
+
 .nav-link:hover {
   color: #0d3149; /* This color is approximately equal to bg-blue-500 in TailwindCSS */
 }

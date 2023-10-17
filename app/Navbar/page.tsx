@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Login from "../components/Login";
 
 const Navbar = () => {
   return (
@@ -22,11 +23,7 @@ const Navbar = () => {
           <Link href="#" passHref>
             <span className="cursor-pointer nav-link">Contact</span>
           </Link>
-          <Link href="/api/auth/login" passHref>
-            <span className="px-4 py-2 bg-blue-500 text-white font-bold rounded nav-link focus:outline-none focus:border-blue-700 focus:shadow-outline active:bg-blue-800 transition duration-150 ease-in-out">
-              Get Started
-            </span>
-          </Link>
+          <Login />
         </div>
       </div>
     </div>

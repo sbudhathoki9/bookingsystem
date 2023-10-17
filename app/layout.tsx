@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Navbar from "./Navbar/page";
+import { UserProvider } from "@auth0/nextjs-auth0/client";
 
 type LayoutProps = {
   children: React.ReactNode;
@@ -8,7 +9,7 @@ type LayoutProps = {
 
 export default function RootLayout({ children }: LayoutProps) {
   return (
-    <>
+    <UserProvider>
       <html>
         <Head>
           <link
@@ -27,6 +28,6 @@ export default function RootLayout({ children }: LayoutProps) {
           {children}
         </body>
       </html>
-    </>
+    </UserProvider>
   );
 }
