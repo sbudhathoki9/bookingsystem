@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Login from "../components/Login";
+import Profile from "../components/Profile/Profile";
 
 const Navbar = () => {
   return (
@@ -23,7 +23,7 @@ const Navbar = () => {
           <Link href="#" passHref>
             <span className="cursor-pointer nav-link">Contact</span>
           </Link>
-          <Login />
+          <Profile />
         </div>
       </div>
     </div>
