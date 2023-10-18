@@ -7,10 +7,9 @@ import Status from "./components/Status";
 const Page = () => {
   //const { user, error, isLoading } = useUser();
   return (
-    <main className="container mt-5">
+    <main className="flex flex-col place-items-center gap-4">
       <h1>Booking System</h1>
       <Status />
-      <Link href="/api/auth/login">Get Started</Link>
     </main>
   );
 };

@@ -3,7 +3,7 @@ import Login from "../components/Login";
 
 const Navbar = () => {
   return (
-    <div className="bg-blue-800 text-white py-4 px-10">
+    <div className="bg-gray-900 text-white py-4 px-10">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         <div className="flex items-center">
           <div className="w-8 h-8 bg-blue-500 rounded-full mr-3"></div>
