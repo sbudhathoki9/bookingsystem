@@ -26,7 +26,7 @@ const Navbar = () => {
           <Profile />
         </div>
       </div>
-    </div>
+    </div> 
   );
 };
 

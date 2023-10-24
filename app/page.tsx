@@ -10,7 +10,7 @@ const Page = () => {
   return (
     <main className="flex flex-col place-items-center gap-4">
       <h1>Booking System</h1>
-      <Status />
+      <LandingPage/>
     </main>
   );
 };
