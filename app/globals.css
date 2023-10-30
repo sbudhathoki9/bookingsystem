@@ -55,3 +55,44 @@ h1 {
 .mouseHover:hover{
   cursor: pointer;
 }
+
+/* Main datepicker background */
+.react-datepicker {
+  background-color: #2a2a2a !important;
+}
+
+/* Text color for days of the week, month and year */
+.react-datepicker__header,
+.react-datepicker__day-name,
+.react-datepicker__day,
+.react-datepicker__time-name {
+  color: #eaeaea !important;
+}
+
+/* Active/hovered date background color */
+.react-datepicker__day--selected,
+.react-datepicker__day:hover {
+  background-color: #444 !important;
+  color: #eaeaea !important;
+}
+
+.react-datepicker__weekday {
+  color: #eaeaea !important;
+}
+
+/* Header background color */
+.react-datepicker__header {
+  background-color: #2a2a2a !important;
+}
+
+/* Color for the arrows for navigating between months */
+.react-datepicker__navigation {
+  color: #eaeaea !important;
+}
+
+/* Input field styles */
+.datepicker-input {
+  background-color: #2a2a2a !important;
+  color: #eaeaea !important;
+}
+
