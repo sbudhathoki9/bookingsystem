@@ -96,3 +96,30 @@ h1 {
   color: #eaeaea !important;
 }
 
+.icon-wrapper {
+  @apply relative inline-flex items-center;
+}
+
+.icon-absolute {
+  @apply absolute inset-y-0 left-0 flex items-center pl-3 z-10 pointer-events-none;
+}
+
+.input-base {
+  @apply bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-2.5 focus:ring-blue-500 focus:border-blue-500;
+  @apply dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500;
+}
+
+.input-with-icon {
+  @apply pl-10; /* Additional padding to accommodate the icon */
+}
+
+.button-base {
+  @apply inline-flex items-center bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg w-full p-2.5 focus:ring-blue-500 focus:border-blue-500;
+  @apply dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500;
+}
+
+.icon-color {
+  @apply text-gray-500 dark:text-gray-400;
+}
+
+
